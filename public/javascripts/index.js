@@ -1,12 +1,10 @@
    
 document.getElementById("app").innerHTML = `
-<div id="page-wrapper">
   <a id="thisLink" style="display:none; float:right;" href="">Link to this page</a>
   <select id="fileSelection">
     <option value="">Select One</option>
   </select>
   <div id="fileDisplayArea"><div>
-</div>
 `;
 
 const dir = "../docs";

@@ -1,20 +1,16 @@
 {
-  "name": "dlsdocs",
-  "version": "1.0.",
-  "description": "Documentation for UICore DLS",
-  "main": "index.html",
+  "name": "foo",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "node ./bin/www"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
-  },
-  "keywords": [
-    "javascript",
-    "markdown",
-    "documentation"
-  ]
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }

@@ -1,0 +1,54 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  background: #333;
+}
+
+#page-wrapper {
+  width: 100%;
+  background: #FFF;
+  padding: 1em;
+  margin: 1em auto;
+  min-height: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 1.625rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+#fileDisplayArea {
+  margin-top: 2em;
+  width: 100%;
+  overflow-x: auto;
+}
+
+pre {
+  overflow-x: auto;
+  background: whitesmoke;
+  padding: 1rem;
+}
+
+table {
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+th {
+  text-align: center;
+}
+
+td, th {
+  padding: 0.625rem;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}

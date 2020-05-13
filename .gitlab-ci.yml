@@ -1,0 +1,16 @@
+stages:
+  - deploy 
+  
+pages:
+  image: $CI_REGISTRY/cf-cli:latest
+  stage: deploy
+  script:
+  - echo 'Gitlab Page Stage'
+  tags:
+    - linux
+    - docker
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

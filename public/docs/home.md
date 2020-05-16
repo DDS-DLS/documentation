@@ -6,7 +6,7 @@ The components in our library are described first with how to initialize each on
 
 If a parameter is listed it will be *in italics*, while the values of the parameters are **in bold** font. When possible wherever a property is being described, the description will start with its property type in an inline `code block`.
 
-All pages are listed in the [contents page list](./).
+All pages are listed in the [wiki contents page list](../pages).
 
 ## Models
 

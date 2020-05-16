@@ -10,11 +10,11 @@ Forking the desired project to your own namespace is required as teams outside o
 
 1. Click on the fork button located in between the star and clone buttons on the project&#39;s home page.
 
- ![Forking](./public/images/Forking_Gitlab.png "Forking in Gitlab")
+ ![Forking](/images/Forking_Gitlab.png "Forking in Gitlab")
 
 1. Once clicked, you&#39;ll be presented with a screen where you can choose the namespace to fork to. Only namespaces (groups and your own namespace) where you have &#39;write&#39; access to, will be shown. Click on the namespace to create your fork there.
 
- ![Project](./public/images/New_Fork_Project_Gitlab.png "New Forked Project")
+ ![Project](/images/New_Fork_Project_Gitlab.png "New Forked Project")
 
 After the forking is done, you can start working on the newly created repository. There, you will have full [Owner](https://docs.gitlab.com/ee/user/permissions.html) access, so you can set it up as you please.
 
@@ -32,7 +32,7 @@ git submodule add `https://path-to-the/newly/created/fork` folderName
 
 Once the fork has been add to your you will see the new .gitmodules file in the parent project.
 
- ![Create Submodule](./public/images/Submodule.png "Creating a Submodule")
+ ![Create Submodule](/images/Submodule.png "Creating a Submodule")
 
 ## Using Git submodules in your CI jobs
 
@@ -58,19 +58,19 @@ before_script:
 
 --recursive should be used in either both or none (sync/update) depending on whether you have recursive submodules.
 
- ![CICD Build](./public/images/CICDBuild.png "CI/CD Build")
+ ![CICD Build](/images/CICDBuild.png "CI/CD Build")
 
 ## Merging upstream
 
 Once you are ready to present your code back to the main project, you will need to create a merge request. Choose your forked project&#39;s main branch as the source and the original project&#39;s main branch as the destination and create the [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/index.html).
 
-![Merge Request](./public/images/Merging_Gitlab.png "Merge Request")
+![Merge Request](/images/Merging_Gitlab.png "Merge Request")
 
 You can then assign the merge request to someone to have them review your changes. Upon pressing the &#39;Submit Merge Request&#39; button, your changes will be added to the repository and branch you&#39;re merging into.
 
- ![Merging](./public/images/Merge_Request_Gitlab.png "Code Merge")
+ ![Merging](/images/Merge_Request_Gitlab.png "Code Merge")
 
- ![Merge Upstream](./public/images/MergeRequest.png "Merge Upstream")
+ ![Merge Upstream](/images/MergeRequest.png "Merge Upstream")
 
 ## Creating new Components/Patterns
 

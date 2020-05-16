@@ -123,20 +123,20 @@ Below is a list of the available public methods for this component.
 
 ### Banner Carousel
 
-<iframe width="100%" height="450px"
-     src="https://codesandbox.io/embed/uicore-filmstrip-carousel-by-page-mwnvw?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+<iframe
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dcarousel&module=%2Fsrc%2Fcomponents%2Fcarousel.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="UICore Filmstrip Carousel by Page"
-     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+     title="CodeSandbox instance of DLS components"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
 ### Banner Carousel with Buttons
 
-<iframe width="100%" height="450px"
-     src="https://codesandbox.io/embed/uicore-banner-carousel-with-buttons-eocbx?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+<iframe
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dcarousel-buttons&module=%2Fsrc%2Fcomponents%2Fcarousel-buttons.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="UICore Banner Carousel with Buttons"
-     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+     title="CodeSandbox instance of DLS components"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>

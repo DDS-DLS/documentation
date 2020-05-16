@@ -9,7 +9,7 @@ The Tab component is used as a content separation device, or an alternative styl
 
 ### HTML initialization
 
-To initialize tab collection, add a div with the **dds\_\_tabs-container** class, and within that, add an unordered list with the **dds__tabs** class.  Each line item of the list will contain a button with a class of **dds__tab-link** and *data-target* of the ID where your various content blocks will be displayed, and then the unordered list itself will be rendered as the interactive tabs.  The overall dds__tabs-container div must *also* contain another div with the class **dds__tab-content**.  This content div then has the same number of child divs as there are tab buttons, each of which have the classes **dds__tab-pane** and **dds__fade**.
+To initialize tab collection, add a div with the **dds__tabs-container** class, and within that, add an unordered list with the **dds__tabs** class.  Each line item of the list will contain a button with a class of **dds__tab-link** and *data-target* of the ID where your various content blocks will be displayed, and then the unordered list itself will be rendered as the interactive tabs.  The overall dds__tabs-container div must *also* contain another div with the class **dds__tab-content**.  This content div then has the same number of child divs as there are tab buttons, each of which have the classes **dds__tab-pane** and **dds__fade**.
 
 ```HTML
 <div class="dds__tabs-container">
@@ -65,11 +65,11 @@ There are no methods for this component.
 When too many tabs are shown in one row, the overflow class can be applied to the tab-container, which will make left- and right- scroll buttons appear on demand.  To do this, apply the **dds__container-overflow** class to the div that already has the class **dds__tabs-container**.
 
 <iframe
-     src="https://codesandbox.io/embed/stupefied-lake-lgftb?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-overflow&module=%2Fsrc%2Fcomponents%2Ftab-overflow.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="UICore Tab Overflow"
-     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+     title="CodeSandbox instance of DLS components"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
 ### Justified Tabs
@@ -77,21 +77,21 @@ When too many tabs are shown in one row, the overflow class can be applied to th
 To make all tabs expand horizontally to fill up the parent container's width, change the class of the line items to **dds__flex-tab**.
 
 <iframe
-     src="https://codesandbox.io/embed/uicore-tab-overflow-ob3kv?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-justified&module=%2Fsrc%2Fcomponents%2Ftab-justified.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="UICore Tab Overflow"
-     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin">
-</iframe>
+     title="CodeSandbox instance of DLS components"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ### Centered Tabs
 
 Tabs can be instructed to appear always-centered in the middle of a page.  To do so, your main container with a class of **dds__tabs-container** should have a first-descendant child container with a class of **dds__tabs-centered-container**.  The unordered list which previously only had the class **dds__tabs** now needs both classes: **dds__flex-nowrap** and **dds__tab-centered**.
 
 <iframe
-     src="https://codesandbox.io/embed/uicore-tab-justified-b618m?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-centered&module=%2Fsrc%2Fcomponents%2Ftab-centered.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="UICore Tab Centered"
-     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+     title="CodeSandbox instance of DLS components"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>

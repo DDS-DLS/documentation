@@ -98,10 +98,10 @@ There are no public methods for this component.
 
 ### Standard Horizontal Slider
 
-<iframe width="100%" height="200px"
-     src="https://codesandbox.io/embed/uicore-tab-centered-imoox?fontsize=14&hidenavigation=1&view=preview"
+<iframe
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dslider-horizontal&module=%2Fsrc%2Fcomponents%2Fslider-horizontal.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="UICore Slider"
-     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+     title="CodeSandbox instance of DLS components"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>

@@ -54,6 +54,7 @@ Options can be used to change the way a component looks and or behaves. Modals h
 Name | Default | Release/ Status | Description | Dataset Attribute
 --- | --- | --- | --- | ---
 backdrop | false | Available | `string` Option is 'static'. Used to specify if clicking on the backdrop will close the modal. Set backdrop: 'static' to disable closing the modal on backdrop click. | n/a
+target | null | Available | `string` Used to specify the targeted modal element to initialize.
 
 ## Events
 

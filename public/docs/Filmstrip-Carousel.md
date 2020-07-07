@@ -80,7 +80,7 @@ Below is a list of the available public methods for this component.
 ### Filmstrip Carousel with single item advance
 
 <iframe
-     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dcarousel-filmstrip&module=%2Fsrc%2Fcomponents%2Fcarousel-filmstrip.txt&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dcarousel-filmstrip&module=%2Fsrc%2Fcomponents%2Fcarousel-filmstrip.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="CodeSandbox instance of DLS components"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
@@ -90,7 +90,7 @@ Below is a list of the available public methods for this component.
 ### Filmstrip Carousel with page advance
 
 <iframe
-     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dcarousel-filmstrip-page&module=%2Fsrc%2Fcomponents%2Fcarousel-filmstrip-page.txt&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dcarousel-filmstrip-page&module=%2Fsrc%2Fcomponents%2Fcarousel-filmstrip-page.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="CodeSandbox instance of DLS components"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"

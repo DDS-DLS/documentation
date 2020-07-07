@@ -67,7 +67,12 @@ There are no options for this component.
 
 ## Events
 
-There are no events for this component.
+All components use one or more Events to communicate to external scripts that something has happened. All events will be dispatched from the element used in initialization. Use that element to add listeners to the custom event needed to react to the component’s behavior. All Events use a standard naming convention which is comprised of "uic" + component name + event name. Use the table below to find Events dispatched by this component.
+
+Name | Release/ Status | Description | Details
+--- | --- | --- | ---
+uicMastheadOffCanvasOpen | 1.1.0 | Event dispatched after triggering the opening of the offcanvas menu | `element`
+uicMastheadOffCanvasClose | 1.1.0 | Event dispatched after triggering the close of the offcanvas menu | `element`
 
 ## Methods
 
@@ -123,7 +128,7 @@ There are no events for this component.
 ### Dell.com Masthead
 
 <iframe
-     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dmasthead&module=%2Fsrc%2Fcomponents%2Fmasthead.txt&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dmasthead&module=%2Fsrc%2Fcomponents%2Fmasthead.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="CodeSandbox instance of DLS components"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"

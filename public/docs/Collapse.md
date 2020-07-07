@@ -135,7 +135,10 @@ Use this section to show and describe the available public methods of the compon
 
 ### Simple Collapse
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="UICore Accordion" src="https://codepen.io/DDS-DLS/embed/preview/NWxyQNw?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/DDS-DLS/pen/NWxyQNw'>UICore Accordion</a> by Example Code
-  (<a href='https://codepen.io/DDS-DLS'>@DDS-DLS</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<iframe
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dcollapse&module=%2Fsrc%2Fcomponents%2Fcollapse.txt&theme=dark&view=preview"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="CodeSandbox instance of DLS components"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>

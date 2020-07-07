@@ -43,7 +43,7 @@ var _getAllFilesFromFolder = function(dir) {
   //         results = results.concat(_getAllFilesFromFolder(file))
   //     } else results.push(file);
   // });
-  var comps = ["Alert", "Button", "ButtonFilter", "Carousel", "Collapse", "Complex-Table", "Contact-Drawer", "Contributor-Model", "Dropdown", "Filmstrip-Carousel", "Footer", "Form", "Linkpicker", "Masthead", "Modal", "Nav", "Pagination", "Popover", "Progress-Bar", "Skipnav", "Slider", "Spinbox", "Tab", "Tooltip"];
+  var comps = ["Alert", "Button", "ButtonFilter", "Carousel", "Collapse", "Complex-Table", "Contact-Drawer", "Contributor-Model", "DatePicker", "Dropdown", "Filmstrip-Carousel", "Footer", "Form", "Linkpicker", "Masthead", "Modal", "Nav", "Nav-Left", "Pagination", "Popover", "Progress-Bar", "Select-Bar", "Skipnav", "Slider", "Spinbox", "Tab", "Tooltip"];
   var results = [];
   comps.forEach((comp) => {
     results.push(dir + "/" + comp + ".md")

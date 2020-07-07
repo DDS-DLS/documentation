@@ -65,7 +65,7 @@ There are no methods for this component.
 When too many tabs are shown in one row, the overflow class can be applied to the tab-container, which will make left- and right- scroll buttons appear on demand.  To do this, apply the **dds__container-overflow** class to the div that already has the class **dds__tabs-container**.
 
 <iframe
-     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-overflow&module=%2Fsrc%2Fcomponents%2Ftab-overflow.txt&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-overflow&module=%2Fsrc%2Fcomponents%2Ftab-overflow.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="CodeSandbox instance of DLS components"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
@@ -77,7 +77,7 @@ When too many tabs are shown in one row, the overflow class can be applied to th
 To make all tabs expand horizontally to fill up the parent container's width, change the class of the line items to **dds__flex-tab**.
 
 <iframe
-     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-justified&module=%2Fsrc%2Fcomponents%2Ftab-justified.txt&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-justified&module=%2Fsrc%2Fcomponents%2Ftab-justified.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="CodeSandbox instance of DLS components"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
@@ -89,7 +89,7 @@ To make all tabs expand horizontally to fill up the parent container's width, ch
 Tabs can be instructed to appear always-centered in the middle of a page.  To do so, your main container with a class of **dds__tabs-container** should have a first-descendant child container with a class of **dds__tabs-centered-container**.  The unordered list which previously only had the class **dds__tabs** now needs both classes: **dds__flex-nowrap** and **dds__tab-centered**.
 
 <iframe
-     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-centered&module=%2Fsrc%2Fcomponents%2Ftab-centered.txt&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-centered&module=%2Fsrc%2Fcomponents%2Ftab-centered.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="CodeSandbox instance of DLS components"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"

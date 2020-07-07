@@ -2,7 +2,7 @@
 
 ## Description/Purpose
 
-The footer component is a Dell-centric, standardized site footer.  The DOM element will appear fixed at the bottom of the screen automatically. Start here and customize it to keep the look and feel for your site matching with other in-house Dell properties.
+The footer component is a Dell-centric, standardized site footer using semantic HTML tag `<footer>`, which coincides with the `<header>` in our masthead.  The DOM element will appear fixed at the bottom of the screen automatically. Start here and customize it to keep the look and feel for your site matching with other in-house Dell properties.
 
 ## Initialization
 
@@ -48,15 +48,7 @@ To initialize a footer, you must assign the dataset attribute of a footer elemen
 
 ### Javascript initialization
 
-All components come with a unique dataset attribute  value that  is used to initialize the component on the page. For dropdowns, the *data-toggle* attribute and **dds__footer** value are used to find  the component for initialization.
-
-```javascript
-<script>
-    [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__footer\"]"), function(element) {
-        new UIC.Footer(element); //, {"persist":true});
-    });
-</script>
-```
+As of version 1.1.0, the Footer component no longer needs javascript initialization.
 
 ## Options
 
@@ -75,7 +67,7 @@ There are no public methods for this component.
 ### Standard Footer Implementation
 
 <iframe
-     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dfooter&module=%2Fsrc%2Fcomponents%2Ffooter.txt&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dfooter&module=%2Fsrc%2Fcomponents%2Ffooter.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="CodeSandbox instance of DLS components"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"

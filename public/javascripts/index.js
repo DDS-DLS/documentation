@@ -43,9 +43,6 @@ var _getAllFilesFromFolder = function(dir) {
   //         results = results.concat(_getAllFilesFromFolder(file))
   //     } else results.push(file);
   // });
-<<<<<<< public/javascripts/index.js
-  var comps = ["Alert", "Button", "ButtonFilter", "Carousel", "Collapse", "Complex-Table", "Contact-Drawer", "Contributor-Model", "Dropdown", "Filmstrip-Carousel", "Footer", "Form", "Linkpicker", "Masthead", "Modal", "Nav", "Nav-Left", "Pagination", "Popover", "Product-Stack", "Progress-Bar", "Select-Bar", "Skipnav", "Slider", "Spinbox", "Tab", "Tooltip"];
-=======
   var comps = [
       "Alert",
       "Button",
@@ -76,7 +73,6 @@ var _getAllFilesFromFolder = function(dir) {
       "Tab",
       "Tooltip"
       ];
->>>>>>> public/javascripts/index.js
   var results = [];
   comps.forEach((comp) => {
     results.push(dir + "/" + comp + ".md")

@@ -118,6 +118,7 @@ select | true | Available | `boolean` Allows the user to select rows. This will 
 settings | true | Available | `boolean` Enables a settings options that allows the user to activate and organize table columns. Enabling this feature allows the user to add in a print, import, and column option.
 showData | true | Available | `boolean` Setting this option to false allows the table to delete the json table data once the table has loaded. This is so that if there the table data passed in is extensive, once that data is loaded into the table, the json can be deleted.
 sort | false | Available | `boolean` Enables the columns with the 'data-sortable' attribute to be sorted.
+text | `{ apply:"Apply", cancel:"Cancel", exportCsv:"Export as Csv", exportJson:"Export as Json", delete:"Delete", noEntries:"No Entries found", import:"Import", print:"Print", columns:"Columns", batchActions:"Batch Actions", chooseAction:"Choose Actions" }` | Available | `object` Allows for customization of text elements within the table. This is useful if the table should be shown in a different language, or different wording is desired for certain text elements.
 
 ### Data Table
 

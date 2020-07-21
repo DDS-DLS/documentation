@@ -10,7 +10,7 @@ The tooltip  component is a very simple way of adding a visual and accessible-en
 
 Each component has 2 types of initialization. There are 2 different modular Javascript files that can be used to initialize this component. For more information on the usage of these files see the [Getting Started](https://www.delldesignsystem.com/getting-started) page.
 
-To initialize a tooltip, you can use multiple combinations of dataset attributes. The first one is *data-toggle*=”**dds__tooltip**”, which is how the javascript initializes the component. Two attributes are required either as dataset attributes or options during JS initialization: *data-toggle* and *data-placement*. Optional attributes include *data-delay*, *data-animation*, and *data-container* (see more details about these in the Options section below). Using HTML data attributes is suggested, especially when initializing more than one tooltip element on your DOM. In the example below, you can see the two ways of setting up your HTML.
+To initialize a tooltip, you can use multiple combinations of dataset attributes. The first one is *data-toggle*=”**dds__tooltip**”, which is how the javascript initializes the component. Two attributes are required either as dataset attributes or options during JS initialization: *data-toggle* and *data-placement*. Optional attributes include *data-delay*, *data-animation*, *data-text_align*, and *data-container* (see more details about these in the Options section below). Using HTML data attributes is suggested, especially when initializing more than one tooltip element on your DOM. In the example below, you can see the two ways of setting up your HTML.
 
 1. Both the data-placement and data-title attributes are used to set to corresponding placement and title values for the component:
 
@@ -62,6 +62,7 @@ animation | false | Available | `boolean` or the string "dds__fade". Indicates w
 placement** | n/a | Available | `string` denotes the position of tooltip, set to `top | right | left | bottom`. | `data-placement`
 delay | 60 | Available | `number` Time to wait before showing tooltip on mousein, and hiding tooltip on mouseout, in milliseconds. | `data-delay`
 container | DOC.body | Available | `element` The container to which append the tooltip | `data-container`
+text_align | "center" | Available | `string` The text-alignment for the text in the tooltip. Either "left", "center", or "right" | `data-text_align`
 
 ## Events
 

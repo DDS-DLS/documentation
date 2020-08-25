@@ -65,6 +65,7 @@ var _getAllFilesFromFolder = function (dir) {
         "FilterCollection",
         "Footer",
         "Form",
+        "HelperClasses",
         "Linkpicker",
         "Masthead",
         "Modal",

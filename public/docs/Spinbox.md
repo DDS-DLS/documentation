@@ -47,7 +47,11 @@ spinstep | 1 | Available | Use this parameter to set the increment for increasin
 
 ## Events
 
-There are no events for this component.
+All components use one or more Events to communicate to external scripts that something has happened. All Events will be dispatched from the element used in initialization. Use the element to add listeners to the custom event needed to react to the component’s behavior. All Events use a standard naming convention which is comprised of "uic" + component name + event name. Use the table below to find Events dispatched by this component.
+
+Name | Release/ Status | Description | Details
+--- | --- | --- | ---
+uicSpinboxValueChangeEvent | Available | Event dispatched upon a change to the spinbox values | `{ "value": input.value } ` - An object with "value", the updated value of the spinbox.
 
 ## Methods
 

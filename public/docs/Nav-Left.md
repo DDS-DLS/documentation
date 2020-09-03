@@ -73,6 +73,7 @@ arrows | "right" | Available | `string` Used to change the positioning of the me
 main** | N/A | Available | `string` Another required option, set this to the ID of whichever element contains the main body of your site. | *data-main*
 menu | N/A | Available | `string` This option can be set to the ID of the element you use to contain the navigational links of your menu. | *data-menu*
 suffix | N/A | Available | `string` If you wish to add a static content area to the lower half of your left nav menu, set this option to the ID of that element. | *data-suffix*
+replace | false | Available | `boolean` Set true if you wish to automatically hide the bottom menu in an existing DDS Masthead component. Suggested use for this is if you align the left-nav menu option with the ID of your masthead bottom menu element. | *data-replace*
 
 ## Events
 

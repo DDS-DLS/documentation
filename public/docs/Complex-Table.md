@@ -102,6 +102,7 @@ buttonLabelRight | "Next" | Available | `string` The text used to label the pagi
 column | true | Available | `boolean` Enables a columns button that can be used to reorder and turn columns on/off
 condensed | false | Available | `boolean` Changes to a more compact table.
 data | null | Available | `object` Pass an object of data to populate the table. See Examples section for sample data.
+rearrangeableColumns | false | 1.3.1 | `boolean` Enables/disables reordering the columns.
 disablePaginationInput | false | Available | `boolean` Enables/disables the Pagination input box to allow or prevent Users from entering in page values.
 expand | false | Available | `boolean` Enables rows to have expandable details
 fixedColumns | false | Available | `boolean` Fixes the width of the columns. This stops the columns changing width when loading a new page.

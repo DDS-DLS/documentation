@@ -333,6 +333,15 @@ Apply the below list of header classes to an element for it to appear like a nat
 - `.dds__h5`
 - `.dds__h6`
 
+##Images
+Apply the class `dds__img-fluid` in order to make images responsive to their parent container.
+
+```CSS
+.dds__img-fluid {
+  max-width:100%;
+  height:auto;
+}
+```
 ##Position
 Quick positioning classes are available, though they are not responsive.
 ```CSS

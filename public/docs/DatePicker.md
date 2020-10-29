@@ -74,7 +74,7 @@ All components use one or more Events to communicate to external scripts that so
 
 Name | Release/ Status | Description | Details
 --- | --- | --- | ---
-uicDatePickerSelectedDateEvent | Available| Event dispatched upon selecting a date. | `element`
+uicDatePickerSelectedDate | Available| Event dispatched upon selecting a date. | `element`
 
 ## Methods
 

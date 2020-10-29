@@ -230,34 +230,34 @@ Heads up! This property has no effect on single rows of flex items.
 .dds__align-content-stretch {align-content:stretch !important; }
 ```
 
-Responsive variations exist for align-items as well.
-- `.dds__align-items-sm-start`
-- `.dds__align-items-sm-end`
-- `.dds__align-items-sm-center`
-- `.dds__align-items-sm-between`
-- `.dds__align-items-sm-around`
-- `.dds__align-items-sm-stretch`
+Responsive variations exist for align-content as well.
+- `.dds__align-content-sm-start`
+- `.dds__align-content-sm-end`
+- `.dds__align-content-sm-center`
+- `.dds__align-content-sm-between`
+- `.dds__align-content-sm-around`
+- `.dds__align-content-sm-stretch`
 
-- `.dds__align-items-md-start`
-- `.dds__align-items-md-end`
-- `.dds__align-items-md-center`
-- `.dds__align-items-md-between`
-- `.dds__align-items-md-baseline`
-- `.dds__align-items-md-stretch`
+- `.dds__align-content-md-start`
+- `.dds__align-content-md-end`
+- `.dds__align-content-md-center`
+- `.dds__align-content-md-between`
+- `.dds__align-content-md-baseline`
+- `.dds__align-content-md-stretch`
 
-- `.dds__align-items-lg-start`
-- `.dds__align-items-lg-end`
-- `.dds__align-items-lg-center`
-- `.dds__align-items-lg-between`
-- `.dds__align-items-lg-baseline`
-- `.dds__align-items-lg-stretch`
+- `.dds__align-content-lg-start`
+- `.dds__align-content-lg-end`
+- `.dds__align-content-lg-center`
+- `.dds__align-content-lg-between`
+- `.dds__align-content-lg-baseline`
+- `.dds__align-content-lg-stretch`
 
-- `.dds__align-items-xl-start`
-- `.dds__align-items-xl-end`
-- `.dds__align-items-xl-center`
-- `.dds__align-items-xl-between`
-- `.dds__align-items-xl-baseline`
-- `.dds__align-items-xl-stretch`
+- `.dds__align-content-xl-start`
+- `.dds__align-content-xl-end`
+- `.dds__align-content-xl-center`
+- `.dds__align-content-xl-between`
+- `.dds__align-content-xl-baseline`
+- `.dds__align-content-xl-stretch`
 
 #####Align Self
 Use `align-self` utilities on flexbox items to individually change their alignment on the cross axis (the y-axis to start, x-axis if `flex-direction: column`). Choose from `auto`, `start`, `end`, `center`, `baseline`, or `stretch` (browser default).

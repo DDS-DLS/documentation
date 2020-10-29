@@ -44,7 +44,7 @@ The options which are used to change the way this component looks and/or behaves
 
 Name | Default | Release/ Status | Description | Data-set Attribute
 --- | --- | --- | --- | ---
-lazyload | false | 0.2.11 | `boolean` Used to instruct the tab component to initialize as needed instead of immediately. | n/a
+lazyload | false | 0.2.11 | `boolean` Instructs the tab component to initialize as needed instead of immediately. To be used in conjunction with the lazyLoad method when you need to initialize the overflow arrows at a later time. | n/a
 
 ## Events
 
@@ -56,7 +56,22 @@ uicTabLazyLoadEvent | 0.2.11 | Dispatched upon success or failure of a lazyload 
 
 ## Methods
 
-There are no methods for this component.
+This section lists the available public methods for the component
+
+- **lazyLoad()**
+
+    Type: Function
+
+    Instructs the component overflow indicators to initialize, to be used at a later point in time than initial loading; for example, after additional data is returned.
+
+    Usage:
+
+    ```javascript
+    /**
+     * @return {void}
+     */
+    tab.lazyLoad();
+    ```
 
 ## Examples
 
@@ -66,6 +81,18 @@ When too many tabs are shown in one row, the overflow class can be applied to th
 
 <iframe
      src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-overflow&module=%2Fsrc%2Fcomponents%2Ftab-overflow.txt&theme=dark&view=preview"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="CodeSandbox instance of DLS components"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+### Overflow Tabs with lazyload ON
+
+Under certain circumstances, the overflow arrows will not initalize at the proper position due to things such as data being loaded at a later time.  In this case, there is a lazyload pattern to implement, using both the `lazyload` option and the `lazyLoad` method.
+
+<iframe
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-lazyload&module=%2Fsrc%2Fcomponents%2Ftab-lazyload.txt&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="CodeSandbox instance of DLS components"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"

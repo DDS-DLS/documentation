@@ -1,3 +1,4 @@
+<!-- this page is in HTML but the Markdown reader will parse it just fine -->
 <html lang="en">
 <head>
 <link rel="stylesheet" href="https://uicore.dellcdn.com/1.3.1/css/dds-reboot.min.css">

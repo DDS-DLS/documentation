@@ -47,7 +47,37 @@ uicButtonToggleOn | Available | Dispatched when the state of a button has finish
 
 ## Methods
 
-There are no public methods for this component.
+This section lists the available public methods for the component
+
+- **toggleOff()**
+
+    Type: Function
+
+    Turns the toggle button to its off-state
+
+    Usage:
+
+    ```javascript
+    /**
+     * @return {void}
+     */
+    tooltip.toggleOff()
+    ```
+- **toggleOn()**
+
+    Type: Function
+
+    Turns the toggle button to its on-state
+
+    Usage:
+
+    ```javascript
+    /**
+     * @return {void}
+     */
+    tooltip.toggleOn()
+    ```
+
 
 ## Examples
 

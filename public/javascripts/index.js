@@ -36,7 +36,7 @@ function show(source) {
 }
 
 function docName(inp) {
-    return inp.replace(dir + "/", "").replace(".md", "")
+    return inp.replace(dir + "/", "").replace(".md", ""); // .replace(".html", "")
 }
 
 var _getAllFilesFromFolder = function (dir) {
@@ -66,11 +66,12 @@ var _getAllFilesFromFolder = function (dir) {
         "Footer",
         "Form",
         "HelperClasses",
-        "Icons",
+        "Icons.html",
         "Linkpicker",
         "Masthead",
         "Modal",
         "Nav",
+        "Nav-Anchored-Vertical",
         "Nav-Left",
         "Pagination",
         "Popover",
@@ -85,13 +86,17 @@ var _getAllFilesFromFolder = function (dir) {
     ];
     var results = [];
     comps.forEach(function (comp) {
-        results.push(dir + "/" + comp + ".md")
+        if (comp.match(/\./g)) {
+            results.push(dir + "/" + comp);
+        } else {
+            results.push(dir + "/" + comp + ".md");
+        }
     });
     return results;
 };
 
 _getAllFilesFromFolder(dir).forEach(function (file) {
-    if (file.indexOf(".md") > -1) {
+    if (file.match(/\.md|\.html/gi)) {
         var optionName = docName(file);
         fileSelection.options[fileSelection.options.length] = new Option(optionName, file);
     }
@@ -136,7 +141,8 @@ function handleFileData(fileData) {
 if (doc) {
     fileSelection.style.display = "none";
     setLink(doc);
-    doGET(dir + "/" + doc + ".md", handleFileData);
+    var mdOrHtml = doc.match(/\.html/gi) ? doc : doc + ".md";
+    doGET(dir + "/" + mdOrHtml, handleFileData);
 } else {
     fileSelection.addEventListener("change", function (e) {
         setLink(docName(fileSelection.value));

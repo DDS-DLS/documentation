@@ -97,6 +97,7 @@ Options can be used to change the way a component looks and or behaves. All opti
 Name | Default | Release/ Status | Description | Dataset Attribute
 --- | --- | --- | --- | ---
 additionalActions | null | Available | `[object]` An array of objects that allows for customizable actions in the batch actions dropdown menu. In the format of `[{html: 'insert innerHTML txt here', js: 'yourFunction()'}]`
+allowedImportExtensions | `[".csv", ".json", ".js"]` | 1.4.0 | `[string]` An array of strings with allowed file extensions for importing into the table.
 buttonLabelLeft | "Previous" | Available | `string` The text used to label the pagination button on the left, which allows for internationalization of the button text.
 buttonLabelRight | "Next" | Available | `string` The text used to label the pagination button on the right, which allows for internationalization of the button text.
 column | true | Available | `boolean` Enables a columns button that can be used to reorder and turn columns on/off

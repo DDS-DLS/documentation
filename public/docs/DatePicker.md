@@ -63,10 +63,10 @@ Name | Default | Release/ Status | Description | Dataset Attribute
 --- | --- | --- | --- | ---
 datesFilter | false | Available | `boolean` Used to specify if the user would like to add additional date requirements. Must be set to true of any of the date filter options are being used. | n/a
 pastDates | false | Available | `boolean` Setting this option to true will allow dates before the current day to be allowed/active | n/a
-defaultDate | "" | Available | `Date` This option sets a default starting date when the calendar is first loaded. If no date is entered, then there will be no date in the input field and no date will be active/selected when the calendar is first loaded. | n/a
+defaultDate | "" | Available | `Date` or `string` This option sets a default starting date when the calendar is first loaded. If no date is entered, then there will be no date in the input field and no date will be active/selected when the calendar is first loaded. | n/a
 availableWeekDays | [{day: "monday"},{day: "tuesday"},{day: "wednesday"},{day: "thursday"},{day: "friday"},{day: "saturday"},{day: "sunday"}]| Available | `Array[{day:'string'}]` This option defines which weekdays will be active on the calendar. All weekdays by default are active, unless stated otherwise. | n/a
-notBeforeDate | null | Available | `Date` Disables any date that are before the date passed in| n/a
-notAfterDate | null | Available | `Date` Disables any date that are after the date passed in | n/a
+notBeforeDate | null | Available | `Date` or `string` Disables any date that are before the date passed in| n/a
+notAfterDate | null | Available | `Date` or `string` Disables any date that are after the date passed in | n/a
 
 ## Events
 

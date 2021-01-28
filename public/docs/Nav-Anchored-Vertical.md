@@ -64,7 +64,7 @@ All components come with a unique dataset attribute and value that are used to i
 
 ```javascript
 <script>
-    [].forEach.call(document.querySelectorAll("[data-toggle=\"nav\"]"), function(element) {
+    [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__nav-anchored-vertical\"]"), function(element) {
         new UIC.NavAnchoredVertical(element);
     });
 </script>

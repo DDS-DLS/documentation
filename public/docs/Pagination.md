@@ -74,10 +74,10 @@ All components use one or more Events to communicate to external scripts that so
 
 Name | Release/ Status | Description | Details
 --- | --- | --- | ---
-uicorePaginationPageChangeEvent | Available | Fired when the page is changed | `{ "page": currentPage, "perPage" : options.perPage, "pages" : totalPages }`
-uicorePaginationPageUpdateEvent | Available | Fired when the page is finished rendering | `{ "page": currentPage, "perPage" : options.perPage, "pages" : totalPages }`
-uicorePaginationPerPageChangeEvent | Available | Event fired when the number of items to be viewed per page changes | `{ "page": currentPage, "perPage" : options.perPage, "pages" : totalPages }`
-uicorePaginationPerPageUpdateEvent | Available | Fired when the perPage pager is finished rendering | `{ "page": currentPage, "perPage" : options.perPage, "pages" : totalPages }`
+uicPaginationPageChangeEvent | Available | Fired when the page is changed | `{ "page": currentPage, "perPage" : options.perPage, "pages" : totalPages }`
+uicPaginationPageUpdateEvent | Available | Fired when the page is finished rendering | `{ "page": currentPage, "perPage" : options.perPage, "pages" : totalPages }`
+uicPaginationPerPageChangeEvent | Available | Event fired when the number of items to be viewed per page changes | `{ "page": currentPage, "perPage" : options.perPage, "pages" : totalPages }`
+uicPaginationPerPageUpdateEvent | Available | Fired when the perPage pager is finished rendering | `{ "page": currentPage, "perPage" : options.perPage, "pages" : totalPages }`
 
 ## Methods
 

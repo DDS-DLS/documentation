@@ -28,7 +28,7 @@ In addition, the date picker component will also use form validation, please see
             Date format mm/dd/yyyy.
         </small>
         <div class="dds__invalid-feedback" id="datepicker-inputFeedback">
-            Please enter a valid date.
+            Please choose a valid date.
         </div>
         <div id="myCalendar" class="dds__datepicker-calendar dds__d-none" tabindex="0"></div>
     </div>
@@ -50,7 +50,7 @@ All components come with a unique dataset attribute and value that are used to i
     ]); // use ,false for frameworks to load SVGs after view is initialized
 
     [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__datepicker\"]"), function(element) {
-    new UIC.DatePicker(element, {selector: "#myCalendar", datesFilter: true, pastDates: false, notAfterDate: new Date("01/02/2021")});
+        new UIC.DatePicker(element, {selector: "#myCalendar", datesFilter: true, pastDates: false, notAfterDate: new Date("01/02/2021")});
     });
 </script>
 ```

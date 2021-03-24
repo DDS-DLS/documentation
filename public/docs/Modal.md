@@ -23,7 +23,7 @@ The *data-target* attribute is placed on the triggering element and sets the rel
 The *data-dismiss* attribute is placed within the modal element on a close button to dismiss the modal.
 
 ```HTML
-<div id="exampleModal" tabindex="-1" class="dds__modal dds__fade" role="dialog" aria-labelledby="dds__modal-title1">
+<div id="exampleModal" tabindex="-1" class="dds__modal" role="dialog" aria-labelledby="dds__modal-title1">
     <!-- more -->
     <!-- content -->
     <!-- here -->

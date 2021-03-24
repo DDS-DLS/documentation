@@ -122,3 +122,26 @@ Tabs can be instructed to appear always-centered in the middle of a page.  To do
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
+
+### Vertical Tabs
+
+Tabs can be instructed to appear vertically in the page. To do so, your main container with a class of **dds__tabs-container-vertical** should have a first-descendant child container with a class of **dds__tabs** and **dds__tabs-vertical**. 
+
+Also in javascript initialization on `querySelectorAll` call you must pass a string **'[data-toggle="dds__tab-vertical"]')** as example below.
+
+```javascript
+<script>
+    [].forEach.call(document.querySelectorAll('[data-toggle="dds__tab-vertical"]'), function(element) {
+        new UIC.Tab(element);
+    });
+</script>
+```
+
+<iframe
+     src="https://codesandbox.io/embed/github/DDS-DLS/sandboxes/tree/master/?codemirror=1&expanddevtools=0&runonclick=1&hidenavigation=1&hidedevtools=1&fontsize=14&hidenavigation=1&initialpath=%3Fdoc%3Dtab-vertical&module=%2Fsrc%2Fcomponents%2Ftab-vertical.txt&theme=dark&view=preview"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="CodeSandbox instance of DLS components"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+

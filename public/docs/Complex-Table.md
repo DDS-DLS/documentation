@@ -24,16 +24,17 @@ You can use the dataset attribute *data-table-data* to send in all necessary inf
 1. The *data-table-data* is set to a JSON string with all layout and data details defined.
 
     ```HTML
-    <table data-table="dds__table" class="dds__table dds__table-hover dds__table-cmplx"
-    data-table-data='{"showData":false,"search":true,"select":true,"settings":true,"sort":true,"expand":false,"fixedColumns":true,"fixedHeight":false,"header":true,
+    <table 
+        data-table="dds__table" class="dds__table dds__table-hover dds__table-cmplx"
+        data-table-data='{"showData":false,"search":true,"select":true,"settings":true,"sort":true,"expand":false,"fixedColumns":true,"fixedHeight":false,"header":true,
         "data":{"headings":["Name","Company","Extension","Start Date","Email","Phone","Link"],
         "columns":[{"select":0,"sort":"asc","fixed":true},{"select":[1,2],"hidden":true,"fixed":true},{"select":3,"type":"date","format":"MM/DD/YYYY","sortable":true}],
         "rows":[{"data":["Hedwig F. Nguyen","Arcu Vel Foundation","9875","03/27/2017","nunc.ullamcorper@metusvitae.com","070 8206 9605","<a href=&#39;//www.dell.com&#39;>Dell Home Page</a>"]},
             {"data":["Genevieve U. Watts","Eget Incorporated","9557","07/18/2017","Nullam.vitae@egestas.edu","0800 025698","<a href=&#39;//www.dell.com&#39;>Dell Home Page</a>"],"details":"Genevieve U. Watts details"}
             ]}}'>
-    <caption class="dds__sr-only">A Complex Tables
-        <span>Table used to display User information</span>
-    </caption>
+        <caption class="dds__sr-only">A Complex Tables
+            <span>Table used to display User information</span>
+        </caption>
     </table>
     <nav class="dds__pagination dds__pagination-justified-filter" data-toggle="dds__pagination" aria-label="pagination"></nav>
     ```
@@ -104,10 +105,12 @@ column | true | Available | `boolean` Enables a columns button that can be used 
 condensed | false | Available | `boolean` Changes to a more compact table.
 data | null | Available | `object` Pass an object of data to populate the table. See Examples section for sample data.
 defaultBatchActions | `{exportCsv:true, exportJson:true, delete:true}` | Available | `object`  Allows the 3 default batch actions to be turned off by passing in `false` as their object value 
+expandIcon|`arrow-tri-solid-right`|1.3.4|Defines the icon to be used in the row expand. *This icon is derived from DDS iconography; check __icons__ in DDS documentation*; If you want to use a different icon, register it with UIC.loadURLSVGs();
 rearrangeableColumns | false | 1.3.1 | `boolean` Enables/disables reordering the columns.
 disablePaginationInput | false | Available | `boolean` Enables/disables the Pagination input box to allow or prevent Users from entering in page values.
 expand | false | Available | `boolean` Enables rows to have expandable details
 exportFileName | "datatable_export" | 1.3.2 | `string` Changes the default filename upon exporting of the table
+exportShowWarning | false | 1.4.0 | `boolean` when exporting data to csv, shows a warning message giving instructions to the user on how to open the generated file 
 fixedColumns | false | Available | `boolean` Fixes the width of the columns. This stops the columns changing width when loading a new page.
 fixedHeight | false | Available | `boolean` Fixes the height of the table. This is useful if your last page contains less rows than set in the perPage options and simply stops the table from changing size and affecting the layout of the page. NOTE: when using display: none on the table with this option the table's height will be 0px;
 header | true | Available | `boolean` Enables the table header
@@ -146,6 +149,7 @@ uicTableExpandStartEvent | Available | Event dispatched when the user is opening
 uicTableExpandEndEvent | Available | Event dispatched when the expanded row is finished loading. | An object of “rowId” which is the index of the row that was canceled.
 uicTableUpdateEvent | Available | Event dispatched when the user changes something about the Table. Example: changed items per page, deletes a row, hides a column.
 uicTableSearchEvent | Available | Event dispatched when the user searches in the search bar. | An object with “query”, the string the user types into the search, and “searchData”, the data the matches the search query.
+uicTableSortEvent | Available | Dispatched when the user changes the sorting on any column. | `{ "column" : sortedColumnIdx, "direction" : "ascending" | "descending", "currentPage": currentPage, "perPage": options.perPage }` - an object containing the column sorted, its direction, the current page, and the current number of records per page.
 uicTablePageChangedEvent | Available | Event dispatched when the user changes pages by using the “next” or “previous” buttons.  | `{ "currentPage": currentPage}` - An object with “currentPage”, the new page the user has changed to.
 uicTableRefreshEvent | Available | Event dispatched when the public refresh() method is called on the table.
 uicTableDeleteEvent | Available | Event dispatched when the batch action, delete is called.  | `{ "rowIds": table.selectedRows}` - An object with “rowIds”, the indexes of the rows that are being deleted.

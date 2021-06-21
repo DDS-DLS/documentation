@@ -1,9 +1,9 @@
 <!-- this page is in HTML but the Markdown reader will parse it just fine -->
 <html lang="en">
 <head>
-<link rel="stylesheet" href="https://uicore.dellcdn.com/1.4.0/css/dds-reboot.min.css">
-<link rel="stylesheet" href="https://uicore.dellcdn.com/1.4.0/css/dds-all-with-fonts.min.css">
-<script src="https://uicore.dellcdn.com/1.4.0/js/dds-all.min.js"></script>  
+<link rel="stylesheet" href="https://uicore.dellcdn.com/1.5.3/css/dds-reboot.min.css">
+<link rel="stylesheet" href="https://uicore.dellcdn.com/1.5.3/css/dds-all-with-fonts.min.css">
+<script src="https://uicore.dellcdn.com/1.5.3/js/dds-all.min.js"></script>  
 <style>
     .iconContainer {
         display: -webkit-box;
@@ -67,7 +67,6 @@
     javascript: var labels = []; var codes = []; var leScript = ''; var leTemplate = '\n<div class="divIcon"><div class="dds__icons LELABEL"></div><div class="txtIcon">LELABEL</div><div class="txtIcon">\\LECODE</div></div>'; var leOutput = ''; var icons = document.querySelectorAll('.dds__icon-grid-container'); var substrToEnd = function (str, chk) { var idx = str.lastIndexOf(chk) + chk.length; return str.substr(idx, str.length - idx); }; icons.forEach(icon => { labels.push(substrToEnd(icon.querySelector('.dds__icon-grid-text').textContent, 'CSS:').replace(/\n/g, '').replace(/\s/gi, '')); codes.push(substrToEnd(icon.textContent, '\\').trim()); }); for (var i=0;i<labels.length;i++){ leOutput+=leTemplate.replace(/LELABEL/g, labels[i]).replace(/LECODE/g, codes[i]); }; var copyFrom = document.createElement('textarea');copyFrom.textContent = leScript + leOutput;var body = document.getElementsByTagName('body')[0];body.appendChild(copyFrom);copyFrom.select();document.execCommand('copy');body.removeChild(copyFrom);
 -->
 <!-- REPLACE BETWEEN BEGIN MARKER -->
-
 <div class="divIcon"><div class="dds__icons dds__2-in-1"></div><div class="txtIcon">dds__2-in-1</div><div class="txtIcon">\eaa3</div></div>
 <div class="divIcon"><div class="dds__icons dds__accessibility"></div><div class="txtIcon">dds__accessibility</div><div class="txtIcon">\267f</div></div>
 <div class="divIcon"><div class="dds__icons dds__add-cir"></div><div class="txtIcon">dds__add-cir</div><div class="txtIcon">\e91d</div></div>
@@ -150,6 +149,7 @@
 <div class="divIcon"><div class="dds__icons dds__chart-bars-axis"></div><div class="txtIcon">dds__chart-bars-axis</div><div class="txtIcon">\1f4ca</div></div>
 <div class="divIcon"><div class="dds__icons dds__chart-bars-box"></div><div class="txtIcon">dds__chart-bars-box</div><div class="txtIcon">\1f4c9</div></div>
 <div class="divIcon"><div class="dds__icons dds__chart-insights"></div><div class="txtIcon">dds__chart-insights</div><div class="txtIcon">\1f4c8</div></div>
+<div class="divIcon"><div class="dds__icons dds__chat-bot"></div><div class="txtIcon">dds__chat-bot</div><div class="txtIcon">\1f916</div></div>
 <div class="divIcon"><div class="dds__icons dds__chat-dots"></div><div class="txtIcon">dds__chat-dots</div><div class="txtIcon">\1f4ac</div></div>
 <div class="divIcon"><div class="dds__icons dds__check"></div><div class="txtIcon">dds__check</div><div class="txtIcon">\2713</div></div>
 <div class="divIcon"><div class="dds__icons dds__check-property"></div><div class="txtIcon">dds__check-property</div><div class="txtIcon">\e94e</div></div>

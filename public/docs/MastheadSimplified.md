@@ -13,33 +13,24 @@ The masthead is the component at the top of your webpage that helps with navigat
 Basic HTML initialization
 
 ```HTML
-<div class="dds__msthd dds__msthd-offcanvas-wrapper" data-toggle="dds__msthd">
-    <nav class="dds__navbar dds__msthd-navbar-top dds__navbar-expand-md">
+    <div class="dds__msthd dds__msthd-offcanvas-wrapper" data-toggle="dds__msthd">
+      <nav class="dds__navbar dds__msthd-navbar-top dds__navbar-expand-md">
         <div class="dds__msthd-top dds__container dds__no-gutters">
-            <!-- more -->
-            <!-- content -->
-            <!-- here -->
+          <div class="dds__row dds__no-gutter">
+            <!-- the branding logo -->
+            <div class="dds__msthd-top-ctnr">
+              <div class="dds__msthd-icon-ctnr dds__msthd-logo">
+                <a class="dds__icons dds__msthd-dell-icon" href="//www.dell.com" tabindex="0" aria-label="Dell"></a>
+              </div>
+            </div>
+            <!-- the branding name -->
+            <div class="dds__msthd-brand-ctnr dds__d-none dds__d-lg-block">
+              <span>Design System</span>
+            </div>
+          </div>
         </div>
-    </nav>
-</div>
-
-```
-
-As content of the block above add the following:
-
-```HTML
-        <div class="dds__row dds__no-gutter">
-	        <!-- the branding logo -->
-		    <div class="dds__msthd-top-ctnr">
-		        <div class="dds__msthd-icon-ctnr dds__msthd-logo">
-		            <a class="dds__icons dds__msthd-dell-icon" href="//www.dell.com" tabindex="0" aria-label="Dell"></a>
-		        </div>
-		    </div>
-		    <!-- the branding name -->
-		    <div class="dds__msthd-brand-ctnr dds__d-none dds__d-lg-block">
-		        <span>Design System</span>
-		    </div>
-	    </div>
+      </nav>
+    </div>
 ```
 
 ### Javascript initialization
@@ -49,7 +40,7 @@ All components come with a unique dataset attribute and value that are used to i
 ```javascript
 <script>
     [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__msthd\"]"), function(element) {
-        window.Masthead = new UIC.Masthead(element);
+        new UIC.Masthead(element);
     });
 </script>
 ```

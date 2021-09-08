@@ -14,44 +14,56 @@ To initialize a footer, you must assign the dataset attribute of a footer elemen
 
 ```HTML
     <footer class="dds__default-footer" data-toggle="dds__footer">
-        <nav class="dds__footer-nav">
-            <div class="dds__container">
-                <!-- add navigation items-->
-                <ul class="dds__page-nav">
-                    <li>
-                        <a href="//www.dell.com/learn/us/en/uscorp1/site-terms-of-use-copyright" class="">About Dell</a>
-                    </li>
-                </ul>
-                <!-- country selection -->
-                <div class="dds__country-selector dds__btn-dropdown">
-                    <button class="dds__footer-icon-ctnr" data-target="footer-country-selector" 
-                        aria-label="Country Selector" aria-haspopup="true" aria-expanded="false">
-                        <svg focusable="false" class="dds__svg-icons" name="globe-simple">
-                            <use xlink:href="#dds__globe-simple" class="dds__svg-icons-item dds__show"></use>
-                        </svg>
-                        <span class="dds__footer-label dds__text-truncate">United States</span>
-                        <svg focusable="false" class="dds__svg-icons" name="chevron-right">
-                            <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
-                        </svg>
-                    </button>
-                    <ul id="footer-country-selector" class="dds__country-list dds__button-dropdown-container dds__collapse">
-                        <li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" 
-                            href="//www.dell.com/af/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Afghanistan" data-country-code="af">Afghanistan</a></li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <nav class="dds__footer-legal-nav">
-            <div  class="dds__container">
-                <ul>
-                    <li>
-                        <a href="//www.dell.com/learn/us/en/uscorp1/site-terms-of-use-copyright" class="">© 2019 Dell</a>
-                    </li>
-                    <!-- other links would go here -->
-                </ul>
-            </div>
-        </nav>
+      <nav class="dds__footer-nav">
+        <div class="dds__container">
+          <ul class="dds__page-nav">
+            <li>
+              <a href="//www.dell.com/learn/us/en/uscorp1/site-terms-of-use-copyright" class="">About Dell</a>
+            </li>
+            <li>
+              <a href="//www.dell.com/learn/us/en/uscorp1/terms-of-sale" class="">Careers</a>
+            </li>
+            <li>
+              <a href="//www.dell.com/learn/us/en/uscorp1/site-terms-of-use-copyright" class="">Community</a>
+            </li>
+            <li>
+              <a href="//www.dell.com/learn/us/en/uscorp1/terms-of-sale" class="">Events</a>
+            </li>
+            <li>
+              <a href="//www.dell.com/content/public/xdbredirect.aspx?link=global:nav:partners&~ck=mn" class=""
+                >Partner Program</a
+              >
+            </li>
+            <li>
+              <a href="//www.dell.com/learn/us/en/04/premier?~ck=mn" class="">Premier</a>
+            </li>
+            <li>
+              <a href="//www.delltechnologies.com/en-us/index.htm?~ck=mn" class="">Dell Technologies</a>
+            </li>
+            <li>
+              <a href="//dfs.dell.com/Pages/DFSHomePage.aspx?~ck=mn" class="">Make a Payment</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="dds__footer-legal-nav">
+        <div class="dds__container">
+          <ul>
+            <li>
+              <a href="//www.dell.com/learn/us/en/uscorp1/site-terms-of-use-copyright" class="">© 2019 Dell</a>
+            </li>
+            <li>
+              <a href="//www.dell.com/learn/us/en/uscorp1/terms-of-sale" class="">Terms of Sale</a>
+            </li>
+            <li>
+              <a href="//www.dell.com/learn/us/en/uscorp1/policies-privacy" class="">Privacy Statement</a>
+            </li>
+            <li>
+              <a href="//www.dell.com/learn/us/en/uscorp1/policies-ads-and-emails" class="">Ads & Emails</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </footer>
 ```
 
